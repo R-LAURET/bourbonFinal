@@ -1,0 +1,223 @@
+/* Reset des styles de base */
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    color: #000000;
+    text-shadow: #000000;
+    background-image: url(../img/3.jpg);
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir le conteneur */
+    background-position: center center;
+}
+.p, ul, li{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    color: #000000;
+    text-shadow: #000000;
+
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    text-shadow: #000000;
+
+}
+
+/* Style de l'entête */
+.header {
+    background-color: #460000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Placez la barre de navigation en haut de la page */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajoutez une classe pour positionner la barre de navigation le plus haut possible */
+.navbar.top {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #460000;
+}
+
+/* Ajoutez une classe pour ajuster la marge supérieure du formulaire */
+.login-form.top {
+    margin-top: -5px;
+
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Ajoutez ces styles pour le formulaire de connexion */
+.login-form {
+    float: right;
+    padding: 14px 16px;
+}
+
+.login-form label {
+    margin-right: 8px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+/* Ajustez la largeur et la position verticale des champs d'entrée */
+.login-form input {
+    width: 150px; /* Ajustez la longueur selon vos préférences */
+    height: 20px; 
+    margin-right: 8px;
+    vertical-align: top; /* Place les champs d'entrée en haut */
+}
+
+.login-form button {
+    background-color: #4CAF50;
+    color: white;
+    width: 105px; /* Ajustez la longueur selon vos préférences */
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.login-form button:hover {
+    background-color: #45a049;
+}
+/* Style du formulaire */
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.653);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.871);
+    border-radius: 15px;
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir le conteneur */
+    background-position: center center;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-height: 420px; /* Ajuste la hauteur maximale du formulaire */
+    overflow-y: auto; /* Ajout de la barre de défilement verticale si nécessaire */
+    overflow-x: hidden; /* Ajout de la barre de défilement horizontale si nécessaire */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.information {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: rgba(255, 255, 255, 0.74);
+    background-color: #ffffff00;
+    padding: 5px;
+    /*border: 1px solid #000;*/
+    border-radius: 10px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    max-height: 500px;
+    overflow: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /*box-shadow: 5px 5px 15px rgb(0, 0, 0);*/
+
+
+}
+.titre {
+text-align: center; /* Centrer le texte */
+margin-top: 50px;
+color: #000000;
+text-shadow: #000000;
+border:1px solid #000000;
+border-radius: 5px;
+background-color: #45a049a8;
+}
+.sous_titre{
+color: #075900;
+}
+
+
+/* Style du pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #555; /* Bordure supérieure pour séparation */
+}
+
+/* Style du texte dans le pied de page */
+footer p {
+    margin: 0;
+}
+
+/* Style du lien dans le pied de page (si vous avez des liens) */
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Style au survol du lien dans le pied de page */
+footer a:hover {
+    color: #ddd;
+}
